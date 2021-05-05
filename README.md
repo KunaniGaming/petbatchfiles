@@ -29,4 +29,4 @@ POOL-KEY-HERE - replace with your public pool key (on your main chia node, cmd w
 
 I have drive t:\ChiaTemp setup for temp/destination drive in this example. You change this to your temp drive and destination drive letter/path.  
 
-For help join chiachat.com FB group or follow me on twitter <a href="https://twitter.com/kunani">@kunani </a>
+For help join chiachat.com FB group or follow me on twitter <a href="https://twitter.com/kunani">@kunani</a> and <a href="https://twitter.com/plottool">@plottool</a>
