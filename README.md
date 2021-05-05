@@ -5,6 +5,8 @@ Simple batch file to monitor current chia.exe instances in windows and launch ne
 
 If you plot on multiple Windows machines in your home/office connected on the same network as your main Chia node, this simple batch file combo will help you out. You can normally share a drive on your main chia node pc and map that drive to your extra plotter PC's around the house/office. Use that mapped drive as your destination.
 
+First, install Chia from <a href="https://chia.net">official website</a> on new machine you want to use for plotting. Start the GUI, do not type in your private keys. Close the GUI window then proceed to setting up batch files. (chia init is all thats needed).  
+
 Edit the plotmanager.bat file with the total number of parallel plots you want running on your remote plotter. Lookup the time in seconds it took to complete phase 1 in previous plots and use that number in the delay. 
 
 # plotmanager.bat params: 
