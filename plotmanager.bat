@@ -15,10 +15,8 @@ echo ===== Current Plotting Processes: %currentplots% =====
 
 if %currentplots% lss %maxplots% (
  start /min createplot.bat
- timeout /t 5
 
- for /f "delims=" %%a in (' "wmic process where name="chia.exe" | find "chia.exe" /c" ') do @set currentplots=%%a
- echo ===== Started parallel plot: %currentplots% =====
+ echo ===== Started New Parallel plot =====
  timeout /t %phase1timesecs% 
 
  goto :checkplots
