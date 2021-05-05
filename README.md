@@ -3,7 +3,7 @@ Batch file plot launcher for Chia CLI Windows 10.
 
 Simple batch file to monitor current chia.exe instances on Windows, and launch new plots (createplot.bat) when less than your configured maximum.
 
-If you plot on multiple Windows machines in your home/office connected on the same network as your main Chia node, this simple batch file combo will help you out. You can normally share a drive on your main chia node pc and map that drive to your extra plotter PC's around the house/office. Use that mapped drive as your destination.
+If you plot on multiple Windows machines in your home/office connected on the same network as your main Chia node, this simple batch file combo will help you out. You can share a drive folder on your main Chia node/farmer and map that drive to your extra plotter PC's around the house/office. Use that mapped drive as your destination.
 
 First, install Chia from <a href="https://chia.net">official website</a> on new machine you want to use for plotting. Start the GUI, do not type in your private keys. Close the GUI window then proceed to setting up batch files. (chia init is all thats needed).  
 
