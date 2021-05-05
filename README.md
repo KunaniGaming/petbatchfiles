@@ -15,7 +15,7 @@ set /a maxplots = 8
 set /a phase1timesecs = 4400
 set /a initialdelay = 100
 
-Note: initialdelay is seconds to wait once you launch the plotmanager.bat file. You can tap a key to start a new plot immediately. Use this in case you close the plotmanager.bat window and want to update settings and relaunch. If you had 2300 seconds till the next plot launch when you closed the window, you can set that here so it will be in sync with previous launches.
+Note: 'initialdelay' is seconds to wait once you launch the plotmanager.bat file. You can tap a key to start a new plot immediately. Use this in case you close the plotmanager.bat window and want to update settings and relaunch. If you had 2300 seconds till the next plot launch when you closed the window, you can set that here so it will be in sync with previous launches.
 
 # createplot.bat params:
 
