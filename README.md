@@ -11,7 +11,7 @@ PET script will start the next create plot batch file after the delay time has p
 
 plotmanager.bat will START createplot.bat so edit this to match your farmer/pool keys, number of threads, memory, and k size as you like.
 
-@ createplot.bat params:
+# createplot.bat params:
 
 USER-NAME-HERE - replace this with your windows user name.
 FARMER-KEY-HERE - replace this with your farmer key (on your main chia node, cmd window: chia keys show)
