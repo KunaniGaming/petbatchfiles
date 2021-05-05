@@ -14,7 +14,7 @@ for /f "delims=" %%a in (' "wmic process where name="chia.exe" | find "chia.exe"
 echo ===== Current Plotting Processes: %currentplots% =====
 
 if %currentplots% lss %maxplots% (
- start /min plotk32.bat
+ start /min createplot.bat
  timeout /t 5
 
  for /f "delims=" %%a in (' "wmic process where name="chia.exe" | find "chia.exe" /c" ') do @set currentplots=%%a
