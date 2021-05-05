@@ -19,7 +19,7 @@ Note: 'initialdelay' is seconds to wait once you launch the plotmanager.bat file
 
 # createplot.bat params:
 
-plotmanager.bat will START createplot.bat so edit this to match your farmer/pool keys, number of threads, memory, and k size as you like.
+plotmanager.bat will START createplot.bat so edit this to match your farmer/pool keys, number of threads, memory, and k size as you like. You'll want to update the chia version number on the second line unless you've already added that to your system environment path.
 
 USER-NAME-HERE - replace this with your windows user name.
 FARMER-KEY-HERE - replace this with your farmer key (on your main chia node, cmd window: chia keys show)
