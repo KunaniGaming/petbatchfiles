@@ -1,4 +1,4 @@
-# petbatchfiles
+# Plot Everywhere Tool BATCH FILE Edition
 Plot Everywhere Tool: batch file plot launcher for Windows Chia CLI
 
 Simple batch file to monitor current chia.exe instances in windows and launching new plot create batch file when less than your configured maximum.
