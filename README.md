@@ -11,7 +11,7 @@ Edit the plotmanager.bat file with the total number of parallel plots you want r
 
 Plotmanager.bat will start the next create plot batch file after the delay time has passed and only if the maximum number of plots isn't already running on your Windows machine. This basically keeps everything timed so you only have 2 plots in phase 1 at a time. Also known as staggering.
 
-set /a maxplots = 8 
+set /a maxplots = 8
 set /a phase1timesecs = 4400 
 set /a initialdelay = 100 
 
