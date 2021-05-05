@@ -1,7 +1,7 @@
 # Plot Everywhere Tool BATCH FILE Edition
 Plot Everywhere Tool: batch file plot launcher for Windows Chia CLI
 
-Simple batch file to monitor current chia.exe instances in windows and launch new plotcreate.bat when less than your configured maximum.
+Simple batch file to monitor current chia.exe instances in windows and launch new createplot.bat when less than your configured maximum.
 
 If you plot on multiple Windows machines in your home/office connected on the same network as your main Chia node, this simple batch file combo will help you out. You can normally share a drive on your main chia node pc and map that drive to your extra plotter PC's around the house/office. Use that mapped drive as your destination.
 
