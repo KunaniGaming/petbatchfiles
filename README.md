@@ -7,11 +7,11 @@ If you plot on multiple Windows machines in your home/office connected on the sa
 
 First, install Chia from <a href="https://chia.net">official website</a> on new machine you want to use for plotting. Start the GUI, do not type in your private keys. Close the GUI window then proceed to setting up batch files. (chia init is all thats needed).  
 
-Edit the plotmanager.bat file with the total number of parallel plots you want running on your remote plotter. Lookup the time in seconds it took to complete phase 1 in previous plots and use that number in the delay. 
-
 # plotmanager.bat params: 
 
 Plotmanager.bat will start the next create plot batch file after the delay time has passed and only if the maximum number of plots isn't already running on your Windows machine. This basically keeps everything timed so you only have 2 plots in phase 1 at a time. Also known as staggering.
+
+Edit the plotmanager.bat file with the total number of parallel plots you want running on your remote plotter. Lookup the time in seconds it took to complete phase 1 in previous plots and use that number in 'phase1timesecs'. 
 
 set /a maxplots = 8  
 set /a phase1timesecs = 4400   
