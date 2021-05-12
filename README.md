@@ -27,7 +27,7 @@ USER-NAME-HERE - replace this with your windows user name.
 FARMER-KEY-HERE - replace this with your farmer key (on your main chia node, cmd window: chia keys show)  
 POOL-KEY-HERE - replace with your public pool key (on your main chia node, cmd window: chia keys show)  
 
--n is set to 2 plots. On fast systems this allows the first plot launched to be active by the time your last plot launches. On very fast plotters the first plot will be complete before plotmanager.bat can launch your maximum number of plots! Setting each plot launch to 2 in queue will guarantee there is a chia.exe instance running long enough for your max plots to launch.  
+The number of plots to queue is set to "-n 1". On fast plotters your first plot may be complete before the plotmanager can launch the last plot based on your phase1timesecs settings. If this happens simply reduce the phase1timesecs so the next plot will overlap the previous phase1 plot. In this case you will have 2 plots in phase1 for a limited time.
 
 I have drive t:\ChiaTemp setup for temp/destination drive in this example. You change this to your temp drive and destination drive letter/path.  
 
