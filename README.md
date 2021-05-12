@@ -9,7 +9,7 @@ First, install Chia from <a href="https://chia.net">official website</a> on new 
 
 # plotmanager.bat params: 
 
-Plotmanager.bat will start the next create plot batch file after the delay time has passed and only if the maximum number of plots isn't already running on your Windows machine. This basically keeps everything timed so you only have 2 plots in phase 1 at a time. Also known as staggering.
+Plotmanager.bat will start the next create plot batch file after the delay time has passed and only if the maximum number of plots isn't already running on your Windows machine. This basically keeps everything timed so you only have 1 to 2 plots in phase 1 at a time. Also known as staggering.
 
 Edit the plotmanager.bat file with the total number of parallel plots you want running on your remote plotter. Lookup the time in seconds it took to complete phase 1 in previous plots and use that number in 'phase1timesecs'. 
 
